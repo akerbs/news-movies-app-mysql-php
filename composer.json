@@ -1,0 +1,33 @@
+{
+  "name": "news-movies-app",
+  "description": "",
+  "type": "project",
+  "require": {
+    "php": ">=7.1",
+    "doctrine/orm": "2.6.3",
+    "gedmo/doctrine-extensions": "2.4.37",
+    "webmasters/doctrine-extensions": "6.0.0",
+    "ezyang/htmlpurifier": "4.12.0",
+    "symfony/var-dumper": "^4.4"
+  },
+  "config": {
+    "platform": {
+      "php": "7.1.32"
+    }
+  },
+  "authors": [
+    {
+      "name": "Anatol Kerbs",
+      "email": "anker2702@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Controllers": "./src/",
+      "Entities": "./src/",
+      "Traits": "./src/",
+      "Validators": "./src/",
+      "Repositories": "./src/"
+    }
+  }
+}
